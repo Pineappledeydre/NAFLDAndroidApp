@@ -14,8 +14,9 @@ The **NAFLD Patient App** is an Android application designed to help users monit
 
 ## **Preview**
 
-> ![App Screenshot](images/Screenshot_20250410_121722.png)
-
+<p align="center">
+  <img src="images/Screenshot_20250410_121722.png" alt="App Screenshot" width="300"/>
+</p>
 ---
 
 ## **Installation**
@@ -68,6 +69,7 @@ NAFLD_patient_app/
 - [ ] Integrate real-time API or offline model inference
 - [ ] Improve UI for small screen sizes
 - [ ] Complete backup include/exclude rules
+- [ ] Update EMB - 2.0 version of the model is available
 
 ---
 
