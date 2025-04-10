@@ -14,7 +14,7 @@ The **NAFLD Patient App** is an Android application designed to help users monit
 
 ## **Preview**
 
-> ![App Screenshot](screenshot.png)
+> ![App Screenshot](images/Screenshot_20250410_121722.png)
 
 ---
 
