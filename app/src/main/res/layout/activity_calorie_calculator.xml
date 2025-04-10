@@ -1,0 +1,154 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Close Button -->
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close"
+            android:layout_gravity="end"
+            android:background="@drawable/custom_button_background"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Title Text -->
+        <TextView
+            android:id="@+id/dietTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/caloric_calculator"
+            android:textSize="24sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/roboto_bold"
+            android:textStyle="bold"/>
+
+        <!-- Height Input -->
+        <EditText
+            android:id="@+id/heightInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_height"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Weight Input -->
+        <EditText
+            android:id="@+id/weightInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_weight"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Age Input -->
+        <EditText
+            android:id="@+id/ageInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_age"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Gender Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_gender"
+            android:textColor="@color/primaryTextColor"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Gender Dropdown -->
+        <Spinner
+            android:id="@+id/genderSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Activity Level Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_activity_level"
+            android:textColor="@color/primaryTextColor"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Activity Level Dropdown -->
+        <Spinner
+            android:id="@+id/activityLevelSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Goal Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_goal"
+            android:textColor="@color/primaryTextColor"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Goal Dropdown -->
+        <Spinner
+            android:id="@+id/goalSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Add Button -->
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate"
+            android:background="@drawable/custom_button_background"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/roboto_regular"/>
+
+    </LinearLayout>
+</ScrollView>

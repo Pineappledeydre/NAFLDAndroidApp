@@ -1,0 +1,145 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:background="@color/backgroundColor"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/backgroundColor">
+
+        <!-- Close Button -->
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close"
+            android:layout_gravity="end"
+            android:background="@drawable/custom_button_background"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/roboto_regular"
+            android:padding="10dp"/>
+
+        <!-- Title Text -->
+        <TextView
+            android:id="@+id/exerciseTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_recommendations"
+            android:textSize="24sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:fontFamily="@font/roboto_bold"/>
+
+        <!-- Age Input -->
+        <EditText
+            android:id="@+id/ageInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_age"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:inputType="number"
+            android:fontFamily="@font/roboto_regular"/>
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Gender Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_gender"
+            android:textColor="@color/primaryTextColor"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Gender Dropdown -->
+        <Spinner
+            android:id="@+id/genderSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_spinner_background"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Comorbidity Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_health_condition"
+            android:textColor="@color/primaryTextColor"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Comorbidity Dropdown -->
+        <Spinner
+            android:id="@+id/healthConditionSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_spinner_background"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Activity Level Switch -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="16dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/activityLevelLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/high_activity_level"
+                android:textSize="18sp"
+                android:textColor="@color/primaryTextColor"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_medium"/>
+
+            <Switch
+                android:id="@+id/activityLevelSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                tools:ignore="UseSwitchCompatOrMaterialXml"/>
+        </LinearLayout>
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:background="@drawable/custom_button_background"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Scrollable Exercise Recommendations -->
+        <TextView
+            android:id="@+id/exerciseRecommendationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/primaryTextColor"
+            android:background="@drawable/recommendation_background"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"
+            android:lineSpacingExtra="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

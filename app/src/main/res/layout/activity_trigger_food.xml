@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/backgroundColor">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/backgroundColor">
+
+        <!-- Close Button -->
+        <Button
+            android:id="@+id/closeTriggerFoodButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close"
+            android:layout_gravity="end"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Title Text (Bold) -->
+        <TextView
+            android:id="@+id/triggerFoodTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_trigger_food"
+            android:textSize="24sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/roboto_bold"
+            android:textStyle="bold"/>
+
+        <!-- Date Input -->
+        <EditText
+            android:id="@+id/dateInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_trigger_food_date"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Food Input -->
+        <EditText
+            android:id="@+id/foodInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/hint_trigger_food_item"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Symptoms Input -->
+        <AutoCompleteTextView
+            android:id="@+id/symptomsInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/hint_trigger_food_symptoms"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Info Input -->
+        <EditText
+            android:id="@+id/infoInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_trigger_food_info"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Add Button -->
+        <Button
+            android:id="@+id/addTriggerFoodButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_trigger_food"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Trigger Food List Layout -->
+        <LinearLayout
+            android:id="@+id/triggerFoodListLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+    </LinearLayout>
+</ScrollView>

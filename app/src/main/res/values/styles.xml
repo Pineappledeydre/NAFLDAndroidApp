@@ -1,0 +1,67 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.NAFLD_App" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="android:statusBarColor">@color/primaryColorDark</item>
+        <item name="android:navigationBarColor">@color/primaryColor</item>
+    </style>
+
+    <!-- Button style -->
+    <style name="ButtonStyle">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:elevation">10dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Custom button style -->
+    <style name="CustomButtonStyle">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/button_background</item> <!-- Replace with your background drawable -->
+        <item name="android:elevation">10dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Title text style -->
+    <style name="TitleTextStyle">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="CustomAlertDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <!-- Настройка фона диалога -->
+        <item name="android:background">?attr/backgroundColor</item>
+        <!-- Настройка цвета заголовка -->
+        <item name="android:textColorPrimary">?attr/colorPrimary</item>
+        <!-- Настройка текста кнопок -->
+        <item name="android:buttonBarPositiveButtonStyle">@style/CustomButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/CustomButtonStyle</item>
+    </style>
+
+    <style name="CustomEditTextStyle">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:backgroundTint">@color/primaryColor</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+</resources>
+<!-- Other styles -->
+

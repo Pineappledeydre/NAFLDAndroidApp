@@ -1,0 +1,395 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundColor"
+        android:padding="16dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Close Button -->
+            <Button
+                android:id="@+id/closeSurveyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/close"
+                android:layout_gravity="end"
+                android:background="@drawable/custom_button_background"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/roboto_regular"
+                android:padding="10dp"/>
+
+            <!-- Survey Title -->
+            <TextView
+                android:id="@+id/surveyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/patient_survey"
+                android:textSize="24sp"
+                android:textColor="@color/primaryTextColor"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingBottom="16dp"
+                android:gravity="center"/>
+
+            <!-- First Symptoms Date Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/first_symptoms_date"
+                android:textSize="18sp"
+                android:textColor="@color/primaryTextColor"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/firstSymptomsDateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/hint_first_symptoms_date"
+                android:minHeight="48dp"
+                android:padding="16dp"/>
+
+            <!-- Main Symptoms Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_symptoms"
+                android:textSize="18sp"
+                android:textColor="@color/primaryTextColor"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/mainSymptomsEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/hint_main_symptoms"
+                android:minHeight="48dp"
+                android:padding="16dp"/>
+
+            <!-- Symptom Frequency Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/symptom_frequency"
+                android:textSize="18sp"
+                android:textColor="@color/primaryTextColor"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/symptomFrequencyEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/hint_symptom_frequency"
+                android:minHeight="48dp"
+                android:padding="16dp"/>
+
+            <!-- Diagnosed Date Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/diagnosed_date"
+                android:textSize="18sp"
+                android:textColor="@color/primaryTextColor"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/diagnosedDateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/hint_diagnosed_date"
+                android:minHeight="48dp"
+                android:padding="16dp"/>
+
+            <!-- Liver Diseases Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/liver_diseases"
+                android:textSize="18sp"
+                android:textColor="@color/primaryTextColor"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/liverDiseasesEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/hint_liver_diseases"
+                android:minHeight="48dp"
+                android:padding="16dp"/>
+
+            <!-- Chronic Diseases Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chronic_diseases"
+                android:textSize="18sp"
+                android:textColor="@color/primaryTextColor"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/chronicDiseasesEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/hint_chronic_diseases"
+                android:minHeight="48dp"
+                android:padding="16dp"/>
+
+            <!-- Medications Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/medications"
+                android:textSize="18sp"
+                android:textColor="@color/primaryTextColor"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/medicationsEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/hint_medications"
+                android:minHeight="48dp"
+                android:padding="16dp"/>
+
+            <!-- Alcohol Consumption Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alcohol_consumption"
+                android:textSize="18sp"
+                android:textColor="@color/primaryTextColor"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/alcoholConsumptionEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/hint_alcohol_consumption"
+                android:minHeight="48dp"
+                android:padding="16dp"/>
+
+            <!-- Diet Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/diet"
+                android:textSize="18sp"
+                android:textColor="@color/primaryTextColor"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/dietEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/hint_diet"
+                android:minHeight="48dp"
+                android:padding="16dp"/>
+
+            <!-- Physical Activity Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/physical_activity"
+                android:textSize="18sp"
+                android:textColor="@color/primaryTextColor"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/physicalActivityEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/hint_physical_activity"
+                android:minHeight="48dp"
+                android:padding="16dp"/>
+
+            <!-- Family History Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/family_history"
+                android:textSize="18sp"
+                android:textColor="@color/primaryTextColor"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/familyHistoryEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/hint_family_history"
+                android:minHeight="48dp"
+                android:padding="16dp"/>
+
+            <!-- Stress Level Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stress_level"
+                android:textSize="18sp"
+                android:textColor="@color/primaryTextColor"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/stressLevelEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/hint_stress_level"
+                android:minHeight="48dp"
+                android:padding="16dp"/>
+
+            <!-- Sleep Regimen Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sleep_regimen"
+                android:textSize="18sp"
+                android:textColor="@color/primaryTextColor"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/sleepRegimenEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/hint_sleep_regimen"
+                android:minHeight="48dp"
+                android:padding="16dp"/>
+
+            <!-- Tests Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tests"
+                android:textSize="18sp"
+                android:textColor="@color/primaryTextColor"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/testsEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/hint_tests"
+                android:minHeight="48dp"
+                android:padding="16dp"/>
+
+            <!-- Alternative Treatments Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alternative_treatments"
+                android:textSize="18sp"
+                android:textColor="@color/primaryTextColor"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/alternativeTreatmentsEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/hint_alternative_treatments"
+                android:minHeight="48dp"
+                android:padding="16dp"/>
+
+
+            <!-- Submit Button -->
+            <Button
+                android:id="@+id/submitSurveyButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:background="@drawable/custom_button_background"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_marginTop="20dp"
+                android:minHeight="48dp"/>
+
+            <!-- Show Last Results Button -->
+            <Button
+                android:id="@+id/showLastResultsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/show_last_results"
+                android:background="@drawable/custom_button_background"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_marginTop="10dp"
+                android:minHeight="48dp"/>
+        </LinearLayout>
+    </ScrollView>
+</layout>

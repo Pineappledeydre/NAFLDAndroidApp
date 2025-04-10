@@ -1,0 +1,315 @@
+<resources>
+    <!-- App Information -->
+    <string name="app_name">NAFLD - Patient App</string>
+    <string name="about_app">About the App</string>
+    <string name="language">Language</string>
+    <string name="welcome_message">Welcome to the NAFLD Patient App</string>
+    <string name="data_logs">Your Data Logs</string>
+
+    <!-- Buttons and Actions -->
+    <string name="add_medicine">Add Medicine</string>
+    <string name="add_prediction">Add Prediction</string>
+    <string name="add_trigger_food">Add Trigger Food</string>
+    <string name="calculate">Calculate</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="delete">Delete</string>
+    <string name="delete_all">Delete All</string>
+    <string name="delete_entry">Delete Entry</string>
+    <string name="enter">Enter</string>
+    <string name="save">Save</string>
+    <string name="show_last_results">Show Last Results</string>
+    <string name="submit">Submit</string>
+    <string name="days">days</string>
+
+
+    <!-- Survey Questions -->
+    <string name="age">Age</string>
+    <string name="ast">AST</string>
+    <string name="patient_survey">Patient Survey</string>
+    <string name="alcohol_consumption">How often do you drink alcohol?</string>
+    <string name="alternative_treatments">Tried any alternative treatments?</string>
+    <string name="bilirr">Bilirubin</string>
+    <string name="chronic_diseases">Any other chronic diseases?</string>
+    <string name="crb">CRP</string>
+    <string name="date">Date</string>
+    <string name="diet">Diet</string>
+    <string name="diet_ques">Describe your usual diet</string>
+    <string name="diagnosed_date">Were you diagnosed with NAFLD before?</string>
+    <string name="family_history">Any relatives with liver diseases?</string>
+    <string name="first_symptoms_date">When did you notice NAFLD symptoms?</string>
+    <string name="ggtp">GGTP</string>
+    <string name="liver_diseases">Any previous liver diseases?</string>
+    <string name="lpvp">LPVP</string>
+    <string name="main_symptoms">What are your main symptoms?</string>
+    <string name="medications">Are you taking any medications?</string>
+    <string name="open_questionnaire">Open Questionnaire</string>
+    <string name="physical_activity">Describe your usual activity</string>
+    <string name="probability">Probability</string>
+    <string name="sleep_regimen">What is your sleep routine?</string>
+    <string name="stress_level">What is your stress level?</string>
+    <string name="symptom_frequency">How often are the symptoms?</string>
+    <string name="tests">What tests have you had?</string>
+    <string name="trigl">Triglycerides</string>
+    <string name="weight">Weight</string>
+
+
+
+    <!-- Survey Hints -->
+    <string name="hint_alcohol_consumption">Describe your alcohol consumption habits</string>
+    <string name="hint_alternative_treatments">Mention any alternative treatments you have tried</string>
+    <string name="hint_chronic_diseases">Mention any other chronic diseases</string>
+    <string name="comorbidities_hint">Enter any comorbid conditions</string>
+    <string name="hint_diagnosed_date">Enter the date when you were diagnosed with NAFLD</string>
+    <string name="hint_diet">Describe your usual diet</string>
+    <string name="hint_family_history">Mention any family history of liver diseases</string>
+    <string name="hint_first_symptoms_date">Enter the date when you first noticed symptoms</string>
+    <string name="hint_liver_diseases">Mention any previous liver diseases</string>
+    <string name="hint_main_symptoms">Describe your main symptoms</string>
+    <string name="hint_medications">List any medications you are taking</string>
+    <string name="hint_physical_activity">Describe your usual physical activity</string>
+    <string name="hint_sleep_regimen">Describe your sleep regimen</string>
+    <string name="hint_stress_level">Describe your stress level</string>
+    <string name="hint_symptom_frequency">How often do the symptoms occur?</string>
+    <string name="hint_tests">Mention any tests you have undergone</string>
+
+    <!-- Survey Results -->
+    <string name="survey_saved">Survey data saved successfully</string>
+    <string name="last_survey_results">Last Survey Results</string>
+
+    <!-- Error and Success Messages -->
+    <string name="error">Error</string>
+    <string name="error_fill_all_fields">Please fill in all the required fields.</string>
+    <string name="entry_saved">This entry saved successfully.</string>
+    <string name="no_medicine_entries">No medicine entries found.</string>
+    <string name="no_prediction_entries">No prediction entries found.</string>
+    <string name="no_trigger_food_entries">No trigger food entries found.</string>
+    <string name="success">Success</string>
+    <string name="default_notification_title">Default Title</string>
+    <string name="default_notification_message">This is a default notification message.</string>
+
+
+    <!-- Trigger Food -->
+    <string name="trigger_food_details">Trigger Food Details</string>
+    <string name="hint_trigger_food_date">Enter the date (dd-mm-yyyy)</string>
+    <string name="hint_trigger_food_info">Enter additional information (optional)</string>
+    <string name="hint_trigger_food_item">Enter the food item</string>
+    <string name="hint_trigger_food_symptoms">Enter the symptoms</string>
+    <string name="food">Food</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="info">Additional Information</string>
+
+    <!-- Medicine -->
+    <string name="medicine_details">Medicine Details</string>
+    <string name="medicine_name">Medicine Name</string>
+    <string name="dose">Dose</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="notes">Notes</string>
+    <string name="hint_dose">Enter dose</string>
+    <string name="hint_end_date">Enter end date (dd-mm-yyyy)</string>
+    <string name="hint_medicine_dose">Enter the dose</string>
+    <string name="hint_medicine_end_date">Enter end date (dd-mm-yyyy)</string>
+    <string name="hint_medicine_name">Enter medicine name</string>
+    <string name="hint_medicine_notes">Enter additional notes (optional)</string>
+    <string name="hint_medicine_start_date">Enter start date (dd-mm-yyyy)</string>
+    <string name="hint_start_date">Enter start date (dd-mm-yyyy)</string>
+    <string name="about_app_title">About The App</string>
+    <string name="info_content">Here is the information you want to save</string>
+    <string name="all_exercises_for_patient">All Exercises for Patient ID %1$d</string>
+    <string name="error_logging_exercise">An error occurred while logging the exercise. Please try again.</string>
+
+    <!-- Prediction -->
+    <string name="prediction_details">Prediction Details</string>
+    <string name="hint_ast">Enter AST</string>
+    <string name="hint_bilirr">Enter Bilirr</string>
+    <string name="hint_crb">Enter CRB</string>
+    <string name="hint_ggtp">Enter GGTP</string>
+    <string name="hint_lpvp">Enter LPVP</string>
+    <string name="hint_prediction_date">Enter the date (dd-mm-yyyy)</string>
+    <string name="hint_trigl">Enter Trigl</string>
+
+    <!-- Exercise -->
+    <string name="exercise">Exercise</string>
+    <string name="exercise_calendar">Exercise Calendar</string>
+    <string name="exercise_channel_description">Daily reminders to log your exercise</string>
+    <string name="exercise_channel_name">Exercise Reminders</string>
+    <string name="exercise_details_hint">Enter exercise details</string>
+    <string name="exercise_logged">Exercise logged</string>
+    <string name="exercise_logged_for">Exercise logged for %1$s</string>
+    <string name="exercise_logged_on">Exercise logged on %1$s</string>
+    <string name="exercise_on_date">Exercise on %1$s</string>
+    <string name="exercise_deleted_for">Exercise deleted for %1$s</string>
+    <string name="exercise_questionnaire">Exercise Questionnaire</string>
+    <string name="exercise_recommendations">Exercise Recommendations</string>
+    <string name="high_activity_level">High Activity Level</string>
+    <string name="hint_age">Enter your age</string>
+    <string name="joint_issues">Joint Issues</string>
+    <string name="log_exercise">Log Exercise</string>
+    <string name="none">None</string>
+    <string name="reminder_text">Do not forget to log your exercise today!</string>
+    <string name="reminder_title">Exercise Reminder</string>
+    <string name="select_date_first">Please select a date first</string>
+    <string name="set_notification_time">Set Notification Time</string>
+    <string name="suggest_exercise">Suggest Exercise</string>
+    <string name="suggestion_middle_aged">Suggested exercise for middle-aged adults</string>
+    <string name="suggestion_older">Suggested exercise for older adults</string>
+    <string name="suggestion_young">Suggested exercise for young adults</string>
+    <string name="all_exercises_deleted_for">All exercises deleted for %1$s</string>
+    <string name="no_exercises_logged_for_date">No exercises logged for %1$s</string>
+    <string name="notification_time_set_to">Notification time set to %1$02d:%2$02d</string>
+
+
+    <!-- Exercise Information -->
+    <string name="additional_info_high">"6) Include more intense exercises like running or HIIT for better cardiovascular benefits. 7) Ensure proper recovery and rest days to prevent overtraining. "</string>
+    <string name="additional_info_moderate">"6) Focus on moderate exercises such as brisk walking or cycling. 7) Ensure consistency in your routine to see gradual improvements. "</string>
+    <string name="diabetes_info">"8) Monitor your blood sugar levels and adjust your exercise intensity accordingly. 9) Incorporate flexibility exercises like stretching or yoga to improve mobility. "</string>
+    <string name="hypertension_info">"8) Opt for low-impact exercises and avoid high-intensity workouts that can spike blood pressure. 9) Monitor your blood pressure regularly and adjust your routine as needed. "</string>
+    <string name="joint_issues_info">8) Focus on low-impact exercises such as swimming or cycling. 9) Include flexibility and strength training exercises to support joint health.\\н</string>
+    <string name="base_info">1) Engage in physical activity for at least 30 minutes every day. 2) Include both aerobic and strength exercises in your routine. 3) Warm up before and cool down after your workout. 4) Regularly change your types of physical activity for better results. 5) Drink water before, during, and after exercise.</string>
+    <string name="diabetes">Diabetes</string>
+    <string name="hypertension">Hypertension</string>
+    <string name="age_based_info">Based on your age, here are some additional exercise recommendations:</string>
+
+    <!-- Food -->
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="snack">Snack</string>
+
+    <!-- Meal Options -->
+    <string name="yogurt_granola_berries">Yogurt with granola and berries</string>
+    <string name="scrambled_eggs_whole_grain_toast">Scrambled eggs with whole-grain toast</string>
+    <string name="avocado_on_rye_bread">Avocado on rye bread</string>
+    <string name="oatmeal_with_bananas">Oatmeal with bananas</string>
+    <string name="pancakes_with_honey">Pancakes with honey</string>
+    <string name="smoothie_with_almond_butter">Smoothie with almond butter</string>
+
+    <string name="lentil_soup_whole_grain_bread">Lentil soup with whole-grain bread</string>
+    <string name="grilled_chicken_quinoa_salad">Grilled chicken and quinoa salad</string>
+    <string name="turkey_breast_with_steamed_veggies">Turkey breast with steamed veggies</string>
+    <string name="vegetable_stir_fry">Vegetable stir-fry</string>
+    <string name="veggie_burger_whole_grain_bun">Veggie burger with a whole-grain bun</string>
+    <string name="steak_with_quinoa_and_sweet_potatoes">Steak with quinoa and sweet potatoes</string>
+
+    <string name="stir_fried_tofu_with_brown_rice">Stir-fried tofu with brown rice</string>
+    <string name="chicken_breast_with_roasted_sweet_potatoes">Chicken breast with roasted sweet potatoes</string>
+    <string name="baked_salmon_spinach">Baked salmon with spinach</string>
+    <string name="grilled_fish_with_steamed_vegetables">Grilled fish with steamed vegetables</string>
+    <string name="shrimp_stir_fry_with_vegetables">Shrimp stir-fry with vegetables</string>
+    <string name="pasta_with_meatballs">Pasta with meatballs</string>
+
+    <string name="apple_peanut_butter">Apple with peanut butter</string>
+    <string name="carrot_sticks_hummus">Carrot sticks with hummus</string>
+    <string name="cucumber_slices_with_guacamole">Cucumber slices with guacamole</string>
+    <string name="handful_of_walnuts">Handful of walnuts</string>
+    <string name="cheese_and_grapes">Cheese and grapes</string>
+    <string name="yogurt_with_mixed_nuts">Yogurt with mixed nuts</string>
+
+    <string name="diet_recommendations">Diet Recommendation</string>
+    <string name="select_gender">Select your gender</string>
+    <string name="select_activity_level">Select your activity level</string>
+    <string name="select_goal">Select your goal</string>
+    <string name="select_dish_message">Select one dish from each category</string>
+
+    <!-- Calorie Calculator -->
+    <string name="bmi_underweight">Underweight</string>
+    <string name="bmi_normal">Normal weight</string>
+    <string name="bmi_overweight">Overweight</string>
+    <string name="bmi_obesity">Obesity</string>
+    <string name="bmi">Your BMI: %1$.2f</string>
+    <string name="bmi_with_category">BMI: %.1f (%s)</string>
+    <!-- Add this placeholder for BMI category -->
+    <string name="bmi_category">BMI Category</string>
+    <string name="caloric_calculator">Calorie Calculator</string>
+    <string name="caloric_needs">Your daily caloric needs: %1$d kcal</string>
+    <string name="calorie_calculator_title">Calorie Calculator</string>
+    <string name="diet_recommendations_title">Diet Recommendations</string>
+    <string name="enter_age">Enter age</string>
+    <string name="enter_height">Enter height (cm)</string>
+    <string name="enter_weight">Enter weight (kg)</string>
+    <string name="extra_active">Extra Active</string>
+    <string name="hint_enter_age">Enter your age</string>
+    <string name="hint_enter_height">Enter your height (cm)</string>
+    <string name="hint_enter_weight">Enter your weight (kg)</string>
+    <string name="hint_select_activity_level">Select your activity level</string>
+    <string name="hint_select_gender">Select your gender</string>
+    <string name="hint_select_goal">Select your goal</string>
+    <string name="lightly_active">Lightly Active</string>
+    <string name="maintenance">Maintenance</string>
+    <string name="menu">Sample Menu</string>
+    <string name="moderately_active">Moderately Active</string>
+    <string name="sedentary">Sedentary</string>
+    <string name="very_active">Very Active</string>
+    <string name="weight_loss">Weight Loss</string>
+    <string name="weight_gain">Weight Gain</string>
+
+    <!-- Gender -->
+    <string name="female">Female</string>
+    <string name="gender">Gender</string>
+    <string name="gender_options">Gender Options</string>
+    <string name="male">Male</string>
+    <string name="error_patient_not_found">Error - patient not found</string>
+    <string name="no_exercises_found">No Exercise Found</string>
+
+
+    <!-- Array Strings -->
+    <string-array name="gender_options">
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
+
+    <string name="exerciseDate" type="id">Exercise Date:</string>
+    <string name="exercise_deleted">Exercise has been deleted</string>
+    <string name="error_loading_info">Error Loading Value</string>
+    <string name="save_as_pdf">Save a report</string>
+    <string name="select_health_condition">Select Health Condition</string>
+    <string name="exercise_logs">Exercise Logs</string>
+    <string name="medicine_logs">Medicine Logs</string>
+    <string name="trigger_food_entries">Trigger Food Logs</string>
+
+
+    <string name="start_date_1">Start Date:</string>
+    <string name="end_date_1">End Date:</string>
+    <string name="medicine_1">Medicine:</string>
+    <string name="dose_1">Dose:</string>
+    <string name="date_1">Date: %1$s</string>
+    <string name="food_1">Food: %1$s</string>
+    <string name="symptoms_1">Symptoms: %1$s</string>
+    <string name="info_1">Info: %1$s</string>
+    <string name="details_1">Details: %1$s</string>
+    <string name="filter_by_month">Filter by Month</string>
+    <string name="select_date_range">Select Date Range</string>
+    <string name="select_start_date">Start Date</string>
+    <string name="select_end_date">End Date</string>
+    <string name="show_data">Show Data</string>
+
+    <!-- Date Range Text -->
+    <string name="selected_date_range">From %1$s to %2$s</string>
+    <string name="selected_date_range_not_selected">Date Range - Not Selected</string>
+
+    <!-- Exercise Chart Strings -->
+    <string name="active_days">Active Days: %1$d%%</string>
+    <string name="exercise_chart">Exercise Activity</string>
+
+    <!-- Medicine Chart Strings -->
+    <string name="medication_duration">Medication Duration (Days)</string>
+
+    <!-- Descriptions for each chart -->
+    <string name="exercise_chart_description">Exercise Activity Over Time</string>
+    <string name="medicine_chart_description">Medication Duration (Days)</string>
+    <string name="trigger_food_chart_description">Trigger Food Distribution</string>
+
+    <!-- No Data Text -->
+    <string name="no_data_available">No Data Available</string>
+
+    <!-- Example strings for placeholders or specific messages -->
+    <string name="exercise_no_data_message">No exercise data available for the selected period.</string>
+    <string name="medicine_no_data_message">No medication data available for the selected period.</string>
+    <string name="trigger_food_no_data_message">No trigger food data available for the selected period.</string>
+
+    <!-- Trigger Food Chart Strings -->
+    <string name="trigger_food_distribution">Trigger Foods Distribution</string>
+    <string name="trigger_food_chart_center">Trigger Foods</string>
+
+</resources>

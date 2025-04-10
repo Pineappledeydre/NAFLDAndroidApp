@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="primaryColor">#6200EE</color> <!-- Primary color -->
+    <color name="primaryColorDark">#3700B3</color> <!-- Primary dark color -->
+    <color name="primaryColorLight">#BB86FC</color> <!-- Primary light color -->
+    <color name="accentColor">#03DAC5</color> <!-- Accent color -->
+    <color name="red">#740625</color> <!-- Red Delete color -->
+    <color name="backgroundColor">#FFFFFF</color> <!-- Background color -->
+    <color name="primaryTextColor">#09080B</color> <!-- Primary text color (Black) -->
+    <color name="textColor">#09080B</color>
+    <color name="buttonTextColor">#FFFFFF</color> <!-- Button text color (White) -->
+    <color name="secondaryColor">#FF9800</color> <!-- Example secondary color, adjust as needed -->
+    <color name="inputBackgroundColor">#FFFFFF</color> <!-- White background -->
+    <color name="inputBorderColor">#CCCCCC</color>
+    <color name="hintTextColor">#757575</color> <!-- Light gray border -->
+
+    <color name="pieColor1">#6200EE</color>
+    <color name="pieColor2">#A189C3</color>
+    <color name="pieColor3">#3700B3</color>
+    <color name="pieColor4">#280D65</color>
+    <color name="pieColor5">#707070</color>
+</resources>

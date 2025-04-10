@@ -1,0 +1,170 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:padding="16dp"
+    android:fillViewport="true"> <!-- Helps ScrollView fill the screen -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Close Button -->
+        <Button
+            android:id="@+id/closeAddPredictionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close"
+            android:layout_gravity="end"
+            android:background="@drawable/custom_button_background"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/roboto_regular"
+            android:padding="10dp"/>
+
+        <!-- Title Text -->
+        <TextView
+            android:id="@+id/predictionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_prediction"
+            android:textSize="24sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_gravity="center_horizontal"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_bold"
+            android:textStyle="bold"/>
+
+        <!-- Date Input -->
+        <EditText
+            android:id="@+id/dateInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/date"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Gender Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_gender"
+            android:textColor="@color/primaryTextColor"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Gender Dropdown -->
+        <Spinner
+            android:id="@+id/genderSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_background"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Additional Inputs -->
+        <!-- AST Input -->
+        <EditText
+            android:id="@+id/astInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ast"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- GGTP Input -->
+        <EditText
+            android:id="@+id/ggtpInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ggtp"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- LPVP Input -->
+        <EditText
+            android:id="@+id/lpvpInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lpvp"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Triglycerides Input -->
+        <EditText
+            android:id="@+id/triglInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/trigl"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Bilirubin Input -->
+        <EditText
+            android:id="@+id/bilirrInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bilirr"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- CRP Input -->
+        <EditText
+            android:id="@+id/crbInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/crb"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+        <!-- Add Button -->
+        <Button
+            android:id="@+id/addPredictionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_prediction"
+            android:background="@drawable/custom_button_background"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/roboto_regular"
+            android:padding="10dp"/>
+
+        <!-- Prediction List Layout -->
+        <LinearLayout
+            android:id="@+id/predictionListLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,310 @@
+<resources>
+    <!-- App Information -->
+    <string name="app_name">НАЖБП - Приложение для пациента</string>
+    <string name="about_app">О приложении</string>
+    <string name="language">Язык</string>
+    <string name="welcome_message">Добро пожаловать в приложение для пациентов с НАЖБП</string>
+    <string name="data_logs">Ваши Данные</string>
+
+    <!-- Buttons and Actions -->
+    <string name="add_medicine">Добавить лекарство</string>
+    <string name="add_prediction">Добавить прогноз</string>
+    <string name="add_trigger_food">Добавить продукт-триггер</string>
+    <string name="calculate">Рассчитать</string>
+    <string name="cancel">Отмена</string>
+    <string name="close">Закрыть</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_all">Удалить Все</string>
+    <string name="delete_entry">Удалить запись</string>
+    <string name="enter">Войти</string>
+    <string name="save">Сохранить</string>
+    <string name="show_last_results">Показать последний опрос</string>
+    <string name="submit">Отправить</string>
+    <string name="days">дня/дней</string>
+
+    <!-- Survey Questions -->
+    <string name="age">Возраст</string>
+    <string name="ast">АСТ</string>
+    <string name="patient_survey">Опрос пациента</string>
+    <string name="alcohol_consumption">Как часто вы употребляете алкоголь?</string>
+    <string name="alternative_treatments">Использовали ли вы альтернативные методы лечения?</string>
+    <string name="bilirr">Билирубин</string>
+    <string name="chronic_diseases">Есть ли другие хронические заболевания?</string>
+    <string name="crb">СРБ</string>
+    <string name="date">Дата</string>
+    <string name="diet">Диета</string>
+    <string name="diet_ques">Опишите ваш обычный рацион</string>
+    <string name="diagnosed_date">Был ли у вас ранее диагностирован НАЖБП?</string>
+    <string name="family_history">Есть ли родственники с заболеваниями печени?</string>
+    <string name="first_symptoms_date">Когда вы заметили симптомы НАЖБП?</string>
+    <string name="ggtp">ГГТП</string>
+    <string name="liver_diseases">Есть ли у вас заболевания печени?</string>
+    <string name="lpvp">ЛПВП</string>
+    <string name="main_symptoms">Каковы ваши основные симптомы?</string>
+    <string name="medications">Принимаете ли вы какие-либо лекарства?</string>
+    <string name="open_questionnaire">Открыть анкету</string>
+    <string name="physical_activity">Опишите вашу обычную физическую активность</string>
+    <string name="probability">Вероятность</string>
+    <string name="sleep_regimen">Какой у вас режим сна?</string>
+    <string name="stress_level">Какой у вас уровень стресса?</string>
+    <string name="symptom_frequency">Как часто появляются симптомы?</string>
+    <string name="tests">Какие тесты вы проходили?</string>
+    <string name="trigl">Триглицериды</string>
+    <string name="weight">Вес</string>
+
+    <!-- Survey Hints -->
+    <string name="hint_alcohol_consumption">Опишите свои привычки потребления алкоголя</string>
+    <string name="hint_alternative_treatments">Укажите, пробовали ли альтернативное лечение</string>
+    <string name="hint_chronic_diseases">Укажите, есть ли другие хронические заболевания</string>
+    <string name="comorbidities_hint">Введите коморбидные заболевания</string>
+    <string name="hint_diagnosed_date">Введите дату постановки диагноза НАЖБП</string>
+    <string name="hint_diet">Опишите ваш обычный рацион</string>
+    <string name="hint_family_history">Укажите, были ли у родственников заболевания печени</string>
+    <string name="hint_first_symptoms_date">Введите дату, когда вы заметили первые симтомы</string>
+    <string name="hint_liver_diseases">Укажите, были ли ранее заболевания печени</string>
+    <string name="hint_main_symptoms">Опишите основные симптомы</string>
+    <string name="hint_medications">Перечислите принимаемые медикаменты</string>
+    <string name="hint_physical_activity">Опишите свою обычную физическую активность</string>
+    <string name="hint_sleep_regimen">Опишите ваш режим сна</string>
+    <string name="hint_stress_level">Опишите ваш уровень стресса</string>
+    <string name="hint_symptom_frequency">Как часто появляются симптомы?</string>
+    <string name="hint_tests">Укажите, какие анализы вы проходили</string>
+
+    <!-- Survey Results -->
+    <string name="survey_saved">Данные опроса успешно сохранены</string>
+    <string name="last_survey_results">Последний опрос</string>
+
+    <!-- Error and Success Messages -->
+    <string name="error">Ошибка</string>
+    <string name="error_fill_all_fields">Пожалуйста, заполните все обязательные поля.</string>
+    <string name="entry_saved">Запись успешно сохранена.</string>
+    <string name="no_medicine_entries">Записи о лекарствах не найдены.</string>
+    <string name="no_prediction_entries">Прогнозы не найдены.</string>
+    <string name="no_trigger_food_entries">Записей триггерных продуктов не найдено.</string>
+    <string name="success">Успех</string>
+    <string name="default_notification_title">Заголовок по умолчанию</string>
+    <string name="default_notification_message">Это сообщение уведомления по умолчанию.</string>
+
+    <!-- Trigger Food -->
+    <string name="trigger_food_details">Детали триггерного продукта</string>
+    <string name="hint_trigger_food_date">Введите дату (дд-мм-гггг)</string>
+    <string name="hint_trigger_food_info">Введите дополнительную информацию (необязательно)</string>
+    <string name="hint_trigger_food_item">Введите название продукта</string>
+    <string name="hint_trigger_food_symptoms">Введите симптомы</string>
+    <string name="food">Продукт</string>
+    <string name="symptoms">Симптомы</string>
+    <string name="info">Дополнительная информация</string>
+    <string name="about_app_title">О приложении</string>
+    <string name="info_content">Информация, которую вы хотите сохранить…</string>
+    <string name="all_exercises_for_patient">Все Упражнения для Пациента ID %1$d</string>
+    <string name="error_logging_exercise">Ошибка при записи упражнения. Попробуйте снова.</string>
+
+
+    <!-- Medicine -->
+    <string name="medicine_details">Детали лекарства</string>
+    <string name="medicine_name">Название лекарства</string>
+    <string name="dose">Дозировка</string>
+    <string name="start_date">Дата начала</string>
+    <string name="end_date">Дата окончания</string>
+    <string name="notes">Заметки</string>
+    <string name="hint_dose">Введите дозировку</string>
+    <string name="hint_end_date">Введите дату окончания (дд-мм-гггг)</string>
+    <string name="hint_medicine_dose">Введите дозу</string>
+    <string name="hint_medicine_end_date">Введите дату окончания приема (дд-мм-гггг)</string>
+    <string name="hint_medicine_name">Введите название лекарства</string>
+    <string name="hint_medicine_notes">Введите дополнительные заметки (необязательно)</string>
+    <string name="hint_start_date">Введите дату начала (дд-мм-гггг)</string>
+    <string name="hint_medicine_start_date">Введите дату начала приема (дд-мм-гггг)</string>
+
+    <!-- Prediction -->
+    <string name="prediction_details">Детали прогноза</string>
+    <string name="hint_ast">Введите АСТ</string>
+    <string name="hint_bilirr">Введите Билир</string>
+    <string name="hint_crb">Введите СРБ</string>
+    <string name="hint_ggtp">Введите ГГТП</string>
+    <string name="hint_lpvp">Введите ЛПВП</string>
+    <string name="hint_prediction_date">Введите дату (дд-мм-гггг)</string>
+    <string name="hint_trigl">Введите Триглиц</string>
+
+    <!-- Exercise -->
+    <string name="exercise">Упражнения</string>
+    <string name="exercise_calendar">Календарь Упражнений</string>
+    <string name="exercise_channel_description">Ежедневные напоминания о записи упражнений</string>
+    <string name="exercise_channel_name">Напоминания об упражнениях</string>
+    <string name="exercise_details_hint">Введите Детали Упражнений</string>
+    <string name="exercise_logged">Упражнение записано</string>
+    <string name="exercise_logged_for">Упражнение записано для %1$s</string>
+    <string name="exercise_logged_on">Упражнение записано на %1$s</string>
+    <string name="exercise_on_date">Упражнение на %1$s</string>
+    <string name="exercise_deleted_for">Упражнение удалено для %1$s</string>
+    <string name="exercise_questionnaire">Опрос об Упражнениях</string>
+    <string name="exercise_recommendations">Рекомендации по упражнениям</string>
+    <string name="high_activity_level">Высокий уровень активности</string>
+    <string name="hint_age">Введите ваш Возраст</string>
+    <string name="joint_issues">Проблемы с суставами</string>
+    <string name="log_exercise">Записать упражнение</string>
+    <string name="none">Нет</string>
+    <string name="reminder_text">Не забудьте записать свое упражнение сегодня!</string>
+    <string name="reminder_title">Напоминание об упражнении</string>
+    <string name="select_date_first">Пожалуйста, сначала выберите дату</string>
+    <string name="set_notification_time">Настроить Время Уведомлений</string>
+    <string name="suggest_exercise">Предложить упражнения</string>
+    <string name="suggestion_middle_aged">Рекомендуемые упражнения для людей среднего возраста</string>
+    <string name="suggestion_older">Рекомендуемые упражнения для пожилых людей</string>
+    <string name="suggestion_young">Рекомендуемые упражнения для молодых людей</string>
+    <string name="all_exercises_deleted_for">Все упражнения удалены для %1$s</string>
+    <string name="no_exercises_logged_for_date">Нет записанных упражнений для %1$s</string>
+    <string name="notification_time_set_to">Время уведомления установлено на %1$02d:%2$02d</string>
+
+    <!-- Exercise Information -->
+    <string name="additional_info_high">"6) Включайте более интенсивные упражнения, такие как бег или HIIT, для улучшения сердечно-сосудистого здоровья. 7) Обеспечьте надлежащий отдых и дни восстановления, чтобы избежать переутомления. "</string>
+    <string name="additional_info_moderate">"6) Сосредоточьтесь на умеренных упражнениях, таких как быстрая ходьба или велосипед. 7) Обеспечьте регулярность в своем режиме для постепенных улучшений. "</string>
+    <string name="diabetes_info">"8) Следите за уровнем сахара в крови и корректируйте интенсивность упражнений. 9) Включайте упражнения на гибкость, такие как растяжка или йога, для улучшения подвижности. "</string>
+    <string name="hypertension_info">"8) Выбирайте низкоинтенсивные упражнения и избегайте высокоинтенсивных тренировок, которые могут повысить кровяное давление. 9) Регулярно проверяйте кровяное давление и корректируйте свой режим при необходимости. "</string>
+    <string name="joint_issues_info">8) Сосредоточьтесь на низкоинтенсивных упражнениях, таких как плавание или велоспорт. 9) Включите упражнения на гибкость и силовые тренировки для поддержки здоровья суставов.</string>
+    <string name="base_info">1) Занимайтесь физической активностью не менее 30 минут каждый день. 2) Включайте в свой распорядок как аэробные, так и силовые упражнения. 3) Разогревайтесь перед тренировкой и выполняйте заминку после. 4) Регулярно меняйте виды физической активности для лучшего результата. 5) Пейте воду до, во время и после тренировки.</string>
+    <string name="diabetes">Диабет</string>
+    <string name="hypertension">Гипертония</string>
+    <string name="age_based_info">На основе вашего возраста, вот дополнительные рекомендации по упражнениям:</string>
+
+    <!-- Food -->
+    <string name="breakfast">Завтрак</string>
+    <string name="lunch">Обед</string>
+    <string name="dinner">Ужин</string>
+    <string name="snack">Перекус</string>
+
+    <!-- Meal Options -->
+    <string name="yogurt_granola_berries">Йогурт с гранолой и ягодами</string>
+    <string name="scrambled_eggs_whole_grain_toast">Яичница с цельнозерновым тостом</string>
+    <string name="avocado_on_rye_bread">Авокадо на ржаном хлебе</string>
+    <string name="oatmeal_with_bananas">Овсянка с бананами</string>
+    <string name="pancakes_with_honey">Блины с медом</string>
+    <string name="smoothie_with_almond_butter">Смузи с миндальным маслом</string>
+
+    <string name="lentil_soup_whole_grain_bread">Суп из чечевицы с цельнозерновым хлебом</string>
+    <string name="grilled_chicken_quinoa_salad">Салат с курицей-гриль и киноа</string>
+    <string name="turkey_breast_with_steamed_veggies">Грудка индейки с овощами на пару</string>
+    <string name="vegetable_stir_fry">Овощное рагу</string>
+    <string name="veggie_burger_whole_grain_bun">Вегетарианский бургер на цельнозерновой булочке</string>
+    <string name="steak_with_quinoa_and_sweet_potatoes">Стейк с киноа и сладким картофелем</string>
+
+    <string name="stir_fried_tofu_with_brown_rice">Тофу с коричневым рисом</string>
+    <string name="chicken_breast_with_roasted_sweet_potatoes">Куриная грудка с запеченным сладким картофелем</string>
+    <string name="baked_salmon_spinach">Запеченный лосось со шпинатом</string>
+    <string name="grilled_fish_with_steamed_vegetables">Рыба-гриль с овощами на пару</string>
+    <string name="shrimp_stir_fry_with_vegetables">Жареные креветки с овощами</string>
+    <string name="pasta_with_meatballs">Паста с фрикадельками</string>
+
+    <string name="apple_peanut_butter">Яблоко с арахисовым маслом</string>
+    <string name="carrot_sticks_hummus">Морковные палочки с хумусом</string>
+    <string name="cucumber_slices_with_guacamole">Кусочки огурца с гуакамоле</string>
+    <string name="handful_of_walnuts">Горсть грецких орехов</string>
+    <string name="cheese_and_grapes">Сыр с виноградом</string>
+    <string name="yogurt_with_mixed_nuts">Йогурт с орехами</string>
+
+    <string name="diet_recommendations">Рекоммендации по Питанию</string>
+    <string name="select_gender">Выберите ваш пол</string>
+    <string name="select_activity_level">Выберите уровень активности</string>
+    <string name="select_goal">Выберите вашу цель</string>
+
+    <!-- Calorie Calculator -->
+    <string name="bmi_underweight">Недостаток Веса</string>
+    <string name="bmi_normal">Нормальный Вес</string>
+    <string name="bmi_overweight">Избыточный Вес</string>
+    <string name="bmi_obesity">Ожирение</string>
+    <string name="select_dish_message">Выберите одно блюдо из каждой категории</string>
+    <string name="bmi">Ваш ИМТ: %1$.2f</string>
+    <string name="bmi_with_category">ИМТ: %.1f (%s)</string>
+    <string name="bmi_category">Категория ИМТ</string>
+    <string name="caloric_calculator">Калькулятор Калорий</string>
+    <string name="caloric_needs">Ваша суточная потребность в калориях: %1$d ккал</string>
+    <string name="calorie_calculator_title">Калькулятор Калорий</string>
+    <string name="diet_recommendations_title">Рекомендации по Диете</string>
+    <string name="enter_age">Введите возраст</string>
+    <string name="enter_height">Введите рост (см)</string>
+    <string name="enter_weight">Введите вес (кг)</string>
+    <string name="extra_active">Очень Высокая Активность</string>
+    <string name="hint_enter_age">Введите ваш возраст</string>
+    <string name="hint_enter_height">Введите ваш рост (см)</string>
+    <string name="hint_enter_weight">Введите ваш вес (кг)</string>
+    <string name="hint_select_activity_level">Выберите уровень активности</string>
+    <string name="hint_select_gender">Выберите ваш пол</string>
+    <string name="hint_select_goal">Выберите цель</string>
+    <string name="lightly_active">Низкая Активность</string>
+    <string name="maintenance">Поддержание</string>
+    <string name="menu">Примерное Меню</string>
+    <string name="moderately_active">Умеренная Активность</string>
+    <string name="sedentary">Сидячий</string>
+    <string name="very_active">Высокая Активность</string>
+    <string name="weight_loss">Потеря Веса</string>
+    <string name="weight_gain">Набор Веса</string>
+
+    <!-- Gender -->
+    <string name="female">Женский</string>
+    <string name="gender">Пол</string>
+    <string name="gender_options">Пол</string>
+    <string name="male">Мужской</string>
+    <string name="error_patient_not_found">Ошибка - пациент не найден</string>
+    <string name="no_exercises_found">упражнения не Найдены</string>
+
+
+    <!-- Array Strings -->
+    <string-array name="gender_options">
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
+
+    <string name="exerciseDate" type="id">Дата Тренировки </string>
+    <string name="exercise_deleted">Упражнение было Удалено</string>
+    <string name="error_loading_info">Ошибка при Загрузке Информации</string>
+    <string name="save_as_pdf">Сохранить</string>
+    <string name="select_health_condition">Выберите Состояние Здоровья</string>
+    <string name="exercise_logs">Записи Упражнений</string>
+    <string name="medicine_logs">Записи Лекарств</string>
+    <string name="trigger_food_entries">Записи Продуктов-Триггеров</string>
+
+>
+    <string name="start_date_1">Дата начала:</string>
+    <string name="end_date_1">Дата окончания:</string>
+    <string name="medicine_1">Лекарство:</string>
+    <string name="dose_1">Доза:</string>
+    <string name="date_1">Дата: %1$s</string>
+    <string name="food_1">Еда: %1$s</string>
+    <string name="symptoms_1">Симптомы: %1$s</string>
+    <string name="info_1">Информация: %1$s</string>
+    <string name="details_1">Детали: %1$s</string>
+    <string name="filter_by_month">Сортировка по Месяцу</string>
+    <string name="select_date_range">Выберите диапазон дат</string>
+    <string name="select_start_date">Дата Начала</string>
+    <string name="select_end_date">Дата Окончания</string>
+    <string name="show_data">Показать</string>
+
+    <!-- Текст диапазона дат -->
+    <string name="selected_date_range">C %1$s по %2$s</string>
+    <string name="selected_date_range_not_selected">Диапазон дат не выбран</string>
+
+    <!-- Строки диаграммы упражнений -->
+    <string name="active_days">Активные дни: %1$d%%</string>
+    <string name="exercise_chart">Активность упражнений</string>
+
+    <!-- Строки диаграммы лекарств -->
+    <string name="medication_duration">Длительность приема лекарств (дни)</string>
+
+    <!-- Descriptions for each chart -->
+    <string name="exercise_chart_description">Активность упражнений за период</string>
+    <string name="medicine_chart_description">Продолжительность приема медикаментов (дни)</string>
+    <string name="trigger_food_chart_description">Распределение триггерных продуктов</string>
+
+    <!-- No Data Text -->
+    <string name="no_data_available">Нет данных</string>
+
+    <!-- Example strings for placeholders or specific messages -->
+    <string name="exercise_no_data_message">Нет данных об упражнениях за выбранный период.</string>
+    <string name="medicine_no_data_message">Нет данных о приеме медикаментов за выбранный период.</string>
+    <string name="trigger_food_no_data_message">Нет данных о триггерных продуктах за выбранный период.</string>
+
+    <!-- Строки диаграммы продуктов-триггеров -->
+    <string name="trigger_food_distribution">Распределение продуктов-триггеров</string>
+    <string name="trigger_food_chart_center">Продукты-триггеры</string>
+
+</resources>

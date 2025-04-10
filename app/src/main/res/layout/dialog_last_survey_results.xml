@@ -1,0 +1,63 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/backgroundColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@color/backgroundColor">
+
+        <!-- Title Text -->
+        <TextView
+            android:id="@+id/dialogTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/last_survey_results"
+            android:textSize="20sp"
+            android:textColor="@color/primaryTextColor"
+            android:fontFamily="@font/roboto_bold"
+            android:paddingBottom="16dp"
+            android:gravity="center"/>
+
+        <!-- ScrollView for Results -->
+        <TextView
+            android:id="@+id/resultsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:fontFamily="@font/roboto"/>
+
+        <!-- Save as PDF Button -->
+        <Button
+            android:id="@+id/savePdfButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_as_pdf"
+            android:textColor="@android:color/white"
+            android:background="@color/primaryTextColor"
+            android:fontFamily="@font/roboto_medium"
+            android:padding="12dp"
+            android:layout_marginTop="20dp"/>
+
+        <!-- Close Button -->
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/close"
+            android:textColor="@android:color/white"
+            android:background="@color/primaryColor"
+            android:fontFamily="@font/roboto_medium"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

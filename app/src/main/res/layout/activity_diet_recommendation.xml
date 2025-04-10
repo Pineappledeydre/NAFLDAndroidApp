@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Close Button -->
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close"
+            android:layout_gravity="end"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:padding="10dp"/>
+
+        <!-- Title Text -->
+        <TextView
+            android:id="@+id/dietRecommendationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/diet_recommendations_title"
+            android:textSize="24sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/roboto_bold"
+            android:textStyle="bold"/>
+
+
+        <!-- Caloric Needs TextView -->
+        <TextView
+            android:id="@+id/caloricNeedsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:paddingBottom="8dp"
+            android:padding="16dp"
+            android:background="@drawable/input_background"
+            android:text="@string/caloric_needs"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- BMI TextView -->
+        <TextView
+            android:id="@+id/bmiTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:paddingBottom="8dp"
+            android:padding="16dp"
+            android:background="@drawable/input_background"
+            android:text="@string/bmi"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Menu TextView -->
+        <TextView
+            android:id="@+id/menuTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:paddingBottom="8dp"
+            android:padding="16dp"
+            android:background="@drawable/input_background"
+            android:text="Sample Menu"
+            />
+    </LinearLayout>
+</ScrollView>

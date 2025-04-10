@@ -1,0 +1,99 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/backgroundColor">
+
+        <!-- Close Button -->
+        <Button
+            android:id="@+id/closeCalendarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close"
+            android:layout_gravity="end"
+            android:background="@drawable/custom_button_background"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Title Text -->
+        <TextView
+            android:id="@+id/calendarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_calendar"
+            android:textSize="24sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/roboto_bold"
+            android:textStyle="bold"/>
+
+        <!-- Calendar View -->
+        <CalendarView
+            android:id="@+id/exerciseCalendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Exercise Details Input -->
+        <EditText
+            android:id="@+id/exerciseDetailsInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/exercise_details_hint"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Log Exercise Button -->
+        <Button
+            android:id="@+id/logExerciseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/log_exercise"
+            android:background="@drawable/custom_button_background"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Set Notification Time Button -->
+        <Button
+            android:id="@+id/setNotificationTimeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_notification_time"
+            android:background="@drawable/custom_button_background"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Open Questionnaire Button -->
+        <Button
+            android:id="@+id/openQuestionnaireButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_questionnaire"
+            android:background="@drawable/custom_button_background"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Container for exercise logs -->
+        <LinearLayout
+            android:id="@+id/exerciseLogContainer"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

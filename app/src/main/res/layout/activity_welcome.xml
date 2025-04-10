@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/backgroundColor"
+    android:padding="20dp">
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_message"
+        android:textSize="30sp"
+        android:textColor="@color/primaryColor"
+        android:gravity="center"
+        android:paddingBottom="30dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto_bold" />
+
+    <!-- Spacer -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <!-- GIF as Proceed Icon Button -->
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/enterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gif_logo"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/enter"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="5dp"
+        android:padding="20dp" />
+
+</LinearLayout>

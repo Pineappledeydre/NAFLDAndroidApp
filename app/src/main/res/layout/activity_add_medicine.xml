@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/backgroundColor">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/backgroundColor">
+
+        <!-- Close Button -->
+        <Button
+            android:id="@+id/closeAddMedicineButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close"
+            android:layout_gravity="end"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Medicine Title (Bold) -->
+        <TextView
+            android:id="@+id/medicineTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_medicine"
+            android:textSize="24sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/roboto_bold"
+            android:textStyle="bold"/>
+
+        <!-- Start Date Input -->
+        <EditText
+            android:id="@+id/startDateInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_medicine_start_date"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- End Date Input -->
+        <EditText
+            android:id="@+id/endDateInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_medicine_end_date"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Medicine Name Input -->
+        <AutoCompleteTextView
+            android:id="@+id/medicineNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_medicine_name"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Dose Input -->
+        <EditText
+            android:id="@+id/doseInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_medicine_dose"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Notes Input -->
+        <EditText
+            android:id="@+id/notesInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_medicine_notes"
+            android:background="@drawable/input_background"
+            android:textColor="@color/primaryTextColor"
+            android:padding="16dp"
+            android:fontFamily="@font/roboto_regular"/>
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+        <!-- Add Button -->
+        <Button
+            android:id="@+id/addMedicineButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_medicine"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <!-- Scroll View for Medicine List -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/medicineListLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>
