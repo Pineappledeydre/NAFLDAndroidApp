@@ -4,6 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
+  
   "applicationId": "com.example.nafld_app",
   "variantName": "release",
   "elements": [
@@ -16,6 +17,7 @@
       "outputFile": "app-release.apk"
     }
   ],
+  
   "elementType": "File",
   "baselineProfiles": [
     {
@@ -25,6 +27,7 @@
         "baselineProfiles/1/app-release.dm"
       ]
     },
+    
     {
       "minApi": 31,
       "maxApi": 2147483647,
