@@ -68,7 +68,6 @@ NAFLD_patient_app/
 ## **Known Issues / TODOs**
 - [ ] Integrate real-time API or offline model inference
 - [ ] Improve UI for small screen sizes
-- [ ] Complete backup include/exclude rules
 - [ ] Update EMB - 2.0 version of the model is available
 
 ---
