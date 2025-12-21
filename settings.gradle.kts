@@ -1,5 +1,3 @@
-// settings
-
 pluginManagement {
     repositories {
         google()
