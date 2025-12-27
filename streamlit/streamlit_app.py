@@ -131,5 +131,4 @@ ax.set_xlabel("Normalized Value" if lang == "English" else "Нормализов
 ax.set_title("Comparison of Your Values with Normal Ranges" if lang == "English" else "Сравнение Ваших значений с нормой", fontsize=14, fontweight="bold")
 ax.legend()
 ax.set_xlim([x_min, x_max])  
-
 st.pyplot(fig)
