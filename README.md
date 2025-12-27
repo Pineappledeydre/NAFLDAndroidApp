@@ -1,82 +1,86 @@
-# **NAFLD Patient App**
+# **Приложение для пациентов с НАЖБП**
 
-The **NAFLD Patient App** is an Android application designed to help users monitor and assess their risk of **Non-Alcoholic Fatty Liver Disease (NAFLD)**. It provides a user-friendly interface for inputting health data and receiving predictive insights using machine learning.
+**NAFLD Patient App** — Android-приложение для мониторинга и оценки риска **неалкогольной жировой болезни печени (НАЖБП / NAFLD)**. Оно предлагает удобный интерфейс для ввода показателей здоровья и получения предсказаний на основе методов машинного обучения.
 
 ---
 
-##**Features**
+## **Возможности**
 
--  **Health Input Form** – Enter values like ALT, AST, BMI, insulin, etc.
-- **NAFLD Prediction** – Calculates risk based on a trained machine learning model.
-- **Visual Feedback** – Highlights abnormal values and shows healthy ranges.
-- **Localized UI** – Supports English and Russian (extendable).
+* **Форма ввода показателей** — ALT, AST, ИМТ (BMI), инсулин и др.
+* **Прогноз НАЖБП** — расчёт риска по обученной ML-модели.
+* **Визуальная обратная связь** — подсветка отклонений и отображение референтных диапазонов.
+* **Локализация интерфейса** — поддержка английского и русского (можно расширять).
+
 ---
 
-## **Preview**
+## **Превью**
 
 <p align="center">
-  <img src="images/Screenshot_20250410_121722.png" alt="App Screenshot" width="300"/>
+  <img src="images/Screenshot_20250410_121722.png" alt="Скриншот приложения" width="300"/>
 </p>
+
 ---
 
-## **Installation**
+## **Установка**
 
-### **Clone the Repository**
+### **Клонировать репозиторий**
+
 ```bash
 git clone https://github.com/Pineappledeydre/NAFLD_patient_app.git
 cd NAFLD_patient_app
 ```
 
-### **Open in Android Studio**
-1. Open **Android Studio**
-2. Select **"Open an existing project"**
-3. Navigate to the cloned folder and open it
+### **Открыть в Android Studio**
+
+1. Запустите **Android Studio**
+2. Выберите **«Open an existing project»**
+3. Укажите путь к клонированной папке и откройте проект
 
 ---
 
-## **Tech Stack**
+## **Технологический стек**
 
-- **Language:** Kotlin
-- **Framework:** Android SDK
-- **Build System:** Gradle (Kotlin DSL)
-- **ML Model:** Trained externally (EBM via Python)
-- **Minimum SDK:** (Specify if known, e.g., 21)
-- **Target SDK:** (e.g., 33)
-
----
-
-## 🔗 **Related Projects**
-- [Streamlit NAFLD Prediction App](https://nafld-prediction.streamlit.app/) – Web version of the predictive model
+* **Язык:** Kotlin
+* **Платформа:** Android SDK
+* **Сборка:** Gradle (Kotlin DSL)
+* **ML-модель:** обучается отдельно (EBM на Python)
+* **Minimum SDK:** (указать при наличии, например, 26 — Android 8.0)
+* **Target SDK:** (например, 33)
 
 ---
 
-## **Project Structure**
+## 🔗 **Связанные проекты**
+
+* [Streamlit NAFLD Prediction App](https://nafld-prediction.streamlit.app/) — веб-версия предиктивной модели
+
+---
+
+## **Структура проекта**
+
 ```
 NAFLD_patient_app/
-├── app/                     # Android app source code
-├── gradle/                  # Gradle wrapper config
-├── .idea/                   # Android Studio config files
-├── .gitignore               # Git ignore rules
-├── build.gradle.kts         # Project-level Gradle config (Kotlin DSL)
-├── settings.gradle.kts      # Module linking
-├── gradlew, gradlew.bat     # Gradle wrapper scripts
-└── README.md                # This file
+├── app/                     # Исходный код Android-приложения
+├── gradle/                  # Конфигурация Gradle Wrapper
+├── .idea/                   # Файлы конфигурации Android Studio
+├── .gitignore               # Правила игнорирования Git
+├── build.gradle.kts         # Проектный Gradle (Kotlin DSL)
+├── settings.gradle.kts      # Подключение модулей
+├── gradlew, gradlew.bat     # Скрипты Gradle Wrapper
+└── README.md                # Этот файл
 ```
 
 ---
 
-## **Known Issues / TODOs**
-- [ ] Integrate real-time API or offline model inference
-- [ ] Improve UI for small screen sizes
-- [ ] Update EMB - 2.0 version of the model is available
+## **Известные вопросы / TODO**
+
+* [ ] Интеграция реального API или офлайн-инференса модели
+* [ ] Улучшение UI для малых экранов
+* [ ] Обновление **EBM** — доступна версия модели 2.0
 
 ---
 
-## **License**
-This project is open-source and available under the [MIT License](LICENSE)
+## **Лицензия**
+
+Проект распространяется по лицензии [MIT](LICENSE).
 
 ---
-
-## **Credits**
-Developed by [@Pineappledeydre](https://github.com/Pineappledeydre)  
-NAFLD health research and AI integration by the developer.
